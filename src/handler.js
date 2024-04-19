@@ -42,7 +42,6 @@ const getNoteByIdHandler = (req, h) => {
   const { id } = req.params;
 
   const note = notes.filter((n) => n.id === id)[0];
-  console.log(note);
 
   if (note !== undefined) {
     return {
@@ -65,7 +64,6 @@ const editNoteByIdHandler = (req, h) => {
   const updatedAt = new Date().toISOString();
 
   const index = notes.findIndex((note) => note.id === id);
-  console.log(index);
 
   if (index !== -1) {
     notes[index] = {
