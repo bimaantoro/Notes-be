@@ -1,2 +1,4 @@
 node_modules
 notes-api.pem
+.env
+.prod.env
