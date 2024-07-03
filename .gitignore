@@ -1,4 +1,4 @@
 node_modules
-notes-api.pem
+notes-api-webserver.pem
 .env
 .prod.env
